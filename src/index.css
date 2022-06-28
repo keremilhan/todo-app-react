@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-image: linear-gradient(to right top, #000000, #0f0006, #160011, #19011a, #170424, #170424, #170424, #170424, #19011a, #160011, #0f0006, #000000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: "Amatic SC", cursive;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
