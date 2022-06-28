@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { StyledHeader, SearchInput, StyledForm, StyledButton } from './Header.style'
 
 
